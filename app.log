@@ -1,0 +1,92 @@
+2025-08-12 09:27:51,762 - __main__ - INFO - --- 應用程式啟動：正在載入模型並嘗試載入現有知識庫... ---
+2025-08-12 09:27:51,792 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-08-12 09:27:51,792 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-08-12 09:27:59,287 - __main__ - INFO - SentenceTransformer 模型載入成功。
+2025-08-12 09:27:59,298 - __main__ - INFO - ✅ 現有知識庫載入成功！
+2025-08-12 09:27:59,936 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-12 09:27:59,973 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-12 09:28:00,370 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-12 09:28:15,098 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:28:20,507 - __main__ - INFO - 開始建立/更新知識庫。
+2025-08-12 09:28:20,553 - __main__ - INFO - process_files.py 成功執行，db/O.json 已生成。
+2025-08-12 09:28:20,563 - __main__ - INFO - 從 db/O.json 載入 1 條記錄。
+2025-08-12 09:28:20,911 - __main__ - INFO - 選擇 IndexFlatL2 索引，數據量：1
+2025-08-12 09:28:20,913 - __main__ - INFO - ✅ 知識庫建立完成！共索引了 1 個知識片段。
+2025-08-12 09:28:20,998 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:37:14,941 - __main__ - INFO - --- 應用程式啟動：正在載入模型並嘗試載入現有知識庫... ---
+2025-08-12 09:37:14,966 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-08-12 09:37:14,966 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-08-12 09:37:23,460 - __main__ - INFO - SentenceTransformer 模型載入成功。
+2025-08-12 09:37:23,472 - __main__ - INFO - ✅ 現有知識庫載入成功！
+2025-08-12 09:37:24,201 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-12 09:37:24,221 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-12 09:37:24,661 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-12 09:37:37,637 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:37:41,183 - __main__ - INFO - 開始建立/更新知識庫。
+2025-08-12 09:37:41,367 - __main__ - INFO - process_files.py 成功執行，db/O.json 已生成。
+2025-08-12 09:37:41,376 - __main__ - INFO - 從 db/O.json 載入 2 條記錄。
+2025-08-12 09:37:42,464 - __main__ - INFO - 選擇 IndexFlatL2 索引，數據量：11
+2025-08-12 09:37:42,467 - __main__ - INFO - ✅ 知識庫建立完成！共索引了 11 個知識片段。
+2025-08-12 09:37:42,549 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:37:47,803 - __main__ - INFO - 開始根據範本生成文件：範本='產品名稱.docx', 專案='test'。
+2025-08-12 09:37:47,819 - __main__ - INFO - 開始查詢單一事實：'請問「心得內容全文」的資料是什麼？'，專案範圍：'test'
+2025-08-12 09:37:48,048 - __main__ - INFO - 成功在 FAISS 索引中檢索到 5 個候選文件。
+2025-08-12 09:38:04,359 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-12 09:39:19,450 - __main__ - INFO - LLM 成功生成答案。
+2025-08-12 09:39:19,451 - __main__ - INFO - 研究結果 -> 心得內容全文: 這次參訪讓我收穫良多。首先，對於台達電子工業股份有限公司這間擁有悠久歷史和業界領先地位的企業有了深入的了解。公司的主要業務範疇涵蓋了製程設備領域，展示出其在行業中的卓越表現。
+
+在參觀期間，我有機會探訪了公司的各個部門，包括生產線、研發中心以及員工工作區等。生產流程高效且有序，技術應用先進，讓人大開眼界。其中，最令我印象深刻的是公司內部環境和員工工作的態度——充滿著創新精神與合作氛圍。
+
+此次實習過程中，我獲得了對行業的深度認知和專業領域知識的加深，對於未來職業發展帶來了啟發性影響。從技術、管理和人際關係等多個角度思考，使我在未來的学习方向上有了更清晰的規劃。
+
+此外，我也意識到了提升生產效率的重要性。例如，通過AI和機器人的應用，可以實現製程穩定化，減少變異。另外，根據學校所學知識對工廠各步驟進行詳細分析，找出了可以進一步優化的領域，並提出了可行的改善方案，如加強數據源管理、提高影像識別技術等。
+
+總體來說，這次實習經歷不僅讓我獲得了寶貴的工作經驗和專業技能，更激發了我對工業工程學的熱情。感謝台達電子工業股份有限公司的導師們耐心指導和支持，未來希望能將所學知識應用到實際工作之中，進而為公司乃至整個行業的發展貢獻一份力。
+
+實習時間：自2023年7月7日至2024年6月30日。
+2025-08-12 09:39:19,452 - __main__ - INFO - 開始查詢單一事實：'請問「參訪公司」的資料是什麼？'，專案範圍：'test'
+2025-08-12 09:39:19,679 - __main__ - INFO - 成功在 FAISS 索引中檢索到 5 個候選文件。
+2025-08-12 09:39:26,093 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-12 09:39:27,632 - __main__ - INFO - LLM 成功生成答案。
+2025-08-12 09:39:27,634 - __main__ - INFO - 研究結果 -> 參訪公司: 台達電子工業股份有限公司
+2025-08-12 09:39:27,634 - __main__ - INFO - 開始查詢單一事實：'請問「文件名稱」的資料是什麼？'，專案範圍：'test'
+2025-08-12 09:39:27,687 - __main__ - INFO - 成功在 FAISS 索引中檢索到 5 個候選文件。
+2025-08-12 09:39:34,421 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-12 09:39:36,814 - __main__ - INFO - LLM 成功生成答案。
+2025-08-12 09:39:36,816 - __main__ - INFO - 研究結果 -> 文件名稱: 工業與系統工程學系 產業實習計畫 表
+2025-08-12 09:39:36,816 - __main__ - INFO - 開始查詢單一事實：'請問「學生姓名」的資料是什麼？'，專案範圍：'test'
+2025-08-12 09:39:36,932 - __main__ - INFO - 成功在 FAISS 索引中檢索到 5 個候選文件。
+2025-08-12 09:39:47,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-12 09:39:47,586 - __main__ - INFO - LLM 成功生成答案。
+2025-08-12 09:39:47,588 - __main__ - INFO - 研究結果 -> 學生姓名: 廖振皓
+2025-08-12 09:39:47,600 - __main__ - INFO - ✅ 報告已生成並儲存於：'output\test_產品名稱.docx'。共處理了 4 個欄位。
+2025-08-12 09:51:11,425 - __main__ - INFO - --- 應用程式啟動：正在載入模型並嘗試載入現有知識庫... ---
+2025-08-12 09:51:11,453 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-08-12 09:51:11,454 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-08-12 09:51:19,194 - __main__ - INFO - SentenceTransformer 模型載入成功。
+2025-08-12 09:51:19,204 - __main__ - INFO - ✅ 現有知識庫載入成功！
+2025-08-12 09:51:19,797 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-12 09:51:19,840 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-12 09:51:20,212 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-12 09:51:47,391 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:51:54,913 - __main__ - INFO - 開始建立/更新知識庫。
+2025-08-12 09:51:55,044 - __main__ - INFO - process_files.py 成功執行，db/O.json 已生成。
+2025-08-12 09:51:55,050 - __main__ - INFO - 從 db/O.json 載入 1 條記錄。
+2025-08-12 09:51:55,903 - __main__ - INFO - 選擇 IndexFlatL2 索引，數據量：6
+2025-08-12 09:51:55,906 - __main__ - INFO - ✅ 知識庫建立完成！共索引了 6 個知識片段。
+2025-08-12 09:51:56,021 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:55:42,833 - __main__ - INFO - --- 應用程式啟動：正在載入模型並嘗試載入現有知識庫... ---
+2025-08-12 09:55:42,864 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-08-12 09:55:42,865 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-08-12 09:55:50,686 - __main__ - INFO - SentenceTransformer 模型載入成功。
+2025-08-12 09:55:50,693 - __main__ - INFO - ✅ 現有知識庫載入成功！
+2025-08-12 09:55:51,294 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-12 09:55:51,328 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-12 09:55:51,720 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-12 09:55:57,391 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
+2025-08-12 09:56:01,075 - __main__ - INFO - 開始建立/更新知識庫。
+2025-08-12 09:56:01,192 - __main__ - INFO - process_files.py 成功執行，db/O.json 已生成。
+2025-08-12 09:56:01,198 - __main__ - INFO - 從 db/O.json 載入 1 條記錄。
+2025-08-12 09:56:02,190 - __main__ - INFO - 選擇 IndexFlatL2 索引，數據量：5
+2025-08-12 09:56:02,192 - __main__ - INFO - ✅ 知識庫建立完成！共索引了 5 個知識片段。
+2025-08-12 09:56:02,245 - __main__ - INFO - 動態載入選單：範本=['產品名稱.docx'], 專案=['test']
